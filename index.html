@@ -1,72 +1,296 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A small portfolio and learning journal by a web development beginner.">
-    <title>bry • Giraffe | Learning the Web</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="bry • Giraffe, home">GE<span>.</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#learning">Learning</a>
-        <a href="#projects">Projects</a>
-      </nav>
-      <span class="header-note">A work in progress</span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GE • GiraffeLabs</title>
+
+    <meta
+        name="description"
+        content="GiraffeLabs — Building. Learning. Documenting. Service Advisor, IT Support, and Web Development."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#" class="logo">GE<span>.</span></a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#journey">Journey</a>
+            </nav>
+
+        </div>
     </header>
 
-    <main id="top">
-      <section class="intro" aria-labelledby="intro-title">
-        <p class="eyebrow"><span class="status-dot"></span> Currently learning web development</p>
-        <h1 id="intro-title">Hello, I'm <span>bry </span><br>I'm learning to make things for the web</h1>
-        <div class="intro-bottom">
-          <p class="intro-copy">This is my corner of the internet: a place to share what I'm learning, what I'm making, and what I want to try next.</p>
-          <a class="text-link" href="#projects">Explore my first projects <span aria-hidden="true">&#8595;</span></a>
-        </div>
-        <span class="intro-index" aria-hidden="true">01 / HELLO</span>
-      </section>
 
-      <section class="content-section about-section" id="about" aria-labelledby="about-title">
-        <div class="section-label"><span>01</span> The person</div>
-        <div class="section-body">
-          <h2 id="about-title">A little about me</h2>
-          <p>I'm at the beginning of my web development journey. I'm curious about how websites work, and I'm learning by building small things and improving them one step at a time.</p>
-          <p>Putting something random here to see it change on the site to test something, learning over here
-        </div>
-      </section>
+    <!-- Hero -->
+    <main>
 
-      <section class="content-section learning-section" id="learning" aria-labelledby="learning-title">
-        <div class="section-label"><span>02</span> The process</div>
-        <div class="section-body">
-          <h2 id="learning-title">What I'm learning</h2>
-          <ul class="learning-list">
-            <li><span>01</span><span>HTML</span><span class="learning-detail">Giving a page structure</span></li>
-            <li><span>02</span><span>CSS</span><span class="learning-detail">Making it clear and expressive</span></li>
-            <li><span>03</span><span>JavaScript</span><span class="learning-detail">Adding useful interactions</span></li>
-          </ul>
-        </div>
-      </section>
+        <section class="hero">
 
-      <section class="content-section projects-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-label"><span>03</span> The experiments</div>
-        <div class="section-body">
-          <h2 id="projects-title">Things I've made</h2>
-          <p class="section-intro">Small projects are still real projects. This list will grow as I do.</p>
-          <ol class="project-list">
-            <li><span class="project-number">01</span><span class="project-name">My first web page</span><span class="project-description">This page, made with HTML and CSS</span><span class="project-mark" aria-hidden="true">&#8599;</span></li>
-            <li><span class="project-number">02</span><span class="project-name">Your next idea</span><span class="project-description">Replace this with something you build</span><span class="project-mark" aria-hidden="true">&#8599;</span></li>
-          </ol>
-        </div>
-      </section>
-    </main>
+            <div class="hero-content">
 
-    <footer class="site-footer">
-      <p>Made while learning, one page at a time.</p>
-      <p>&copy; <span id="year">2026</span> bry • Giraffe</p>
-    </footer>
-  </body>
-</html>
+                <p class="eyebrow">WELCOME TO GIRAffELABS</p>
+
+                <h1>GE</h1>
+
+                <h2>Building. Learning. Documenting.</h2>
+
+                <p class="hero-description">
+                    Service Advisor · IT Support · Web Development
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">
+                        View Projects
+                    </a>
+
+                    <a
+                        href="https://github.com/GiraffeEarlobe"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button secondary"
+                    >
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section">
+
+            <div class="section-heading">
+                <span>01</span>
+                <h2>About</h2>
+            </div>
+
+            <div class="about-content">
+
+                <p>
+                    GiraffeLabs is my personal space for building projects,
+                    learning technology, and documenting the journey.
+                </p>
+
+                <p>
+                    My current focus sits at the intersection of
+                    <strong>IT Support</strong> and
+                    <strong>Web Development</strong>, while continuing to
+                    build on my experience as a Service Advisor.
+                </p>
+
+                <p>
+                    This site will evolve alongside my skills, projects,
+                    and everything I learn along the way.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h2>What I'm Learning</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">🖥️</div>
+                    <h3>IT Support</h3>
+                    <p>
+                        Windows, Linux, networking, troubleshooting,
+                        hardware, and technical support.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        HTML, CSS, JavaScript, Git, GitHub, and
+                        building modern websites.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🚗</div>
+                    <h3>Service Advisor</h3>
+                    <p>
+                        Customer service, repair orders, communication,
+                        scheduling, and automotive service.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+                <span>03</span>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-number">01</span>
+                        <span class="project-status">ACTIVE</span>
+                    </div>
+
+                    <h3>GiraffeLabs</h3>
+
+                    <p>
+                        My personal web development and technology
+                        portfolio built and hosted with GitHub Pages.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-number">02</span>
+                        <span class="project-status">LEARNING</span>
+                    </div>
+
+                    <h3>IT Lab</h3>
+
+                    <p>
+                        A personal environment for learning Windows,
+                        Linux, networking, virtualization, and IT support.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Windows</span>
+                        <span>Linux</span>
+                        <span>Networking</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-number">03</span>
+                        <span class="project-status">COMING SOON</span>
+                    </div>
+
+                    <h3>Web Projects</h3>
+
+                    <p>
+                        Future websites, experiments, JavaScript projects,
+                        and other things built while learning web development.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Web</span>
+                        <span>JavaScript</span>
+                        <span>Projects</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Journey -->
+        <section id="journey" class="section">
+
+            <div class="section-heading">
+                <span>04</span>
+                <h2>The Journey</h2>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker"></div>
+
+                    <div>
+                        <span class="timeline-label">AUTOMOTIVE</span>
+                        <h3>Service Advisor</h3>
+                        <p>
+                            Building experience in automotive service,
+                            customer communication, and repair operations.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker"></div>
+
+                    <div>
+                        <span class="timeline-label">TECHNOLOGY</span>
+                        <h3>IT Support</h3>
+                        <p>
+                            Developing practical skills in Windows,
+                            Linux, networking, troubleshooting, and
+                            technical support.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker"></div>
+
+                    <div>
+                        <span class="timeline-label">CURRENT</span>
+                        <h3>Web Development</h3>
+                        <p>
+                            Learning how to build, deploy, and maintain
+                            websites and web applications.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Closing -->
+        <section class="closing">
+
+            <p
