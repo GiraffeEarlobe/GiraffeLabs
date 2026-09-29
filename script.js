@@ -1,3 +1,5 @@
-const year = document.querySelector("#year");
+const footerYear = document.querySelector("footer p");
 
-year.textContent = new Date().getFullYear();
+if (footerYear) {
+    footerYear.textContent = `© ${new Date().getFullYear()} GE • GiraffeLabs`;
+}
